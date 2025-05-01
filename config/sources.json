@@ -1,0 +1,146 @@
+{
+  "news_sources": [
+    {
+      "name": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "type": "website",
+      "quality_score": 0.9,
+      "focus": ["technology", "research", "business"],
+      "parser_settings": {
+        "article_selector": "article",
+        "title_selector": "h3",
+        "content_selector": ".contentArticle"
+      }
+    },
+    {
+      "name": "Harvard Business Review",
+      "url": "https://hbr.org/topic/technology-and-analytics",
+      "type": "website",
+      "quality_score": 0.9,
+      "focus": ["business", "management", "economics"],
+      "parser_settings": {
+        "article_selector": ".stream-item",
+        "title_selector": ".hed",
+        "content_selector": ".article-body"
+      }
+    },
+    {
+      "name": "The Economist",
+      "url": "https://www.economist.com/topics/artificial-intelligence",
+      "type": "website",
+      "quality_score": 0.95,
+      "focus": ["economics", "business", "global"],
+      "parser_settings": {
+        "article_selector": ".css-1ehrfvb",
+        "title_selector": "h3",
+        "content_selector": ".article__body-text"
+      }
+    },
+    {
+      "name": "McKinsey & Company",
+      "url": "https://www.mckinsey.com/featured-insights/artificial-intelligence",
+      "type": "website",
+      "quality_score": 0.85,
+      "focus": ["business", "economics", "strategy"],
+      "parser_settings": {
+        "article_selector": ".item-wrapper",
+        "title_selector": ".item-title",
+        "content_selector": ".content-wrapper"
+      }
+    },
+    {
+      "name": "Brookings Institution",
+      "url": "https://www.brookings.edu/topics/artificial-intelligence/",
+      "type": "website",
+      "quality_score": 0.9,
+      "focus": ["policy", "economics", "research"],
+      "parser_settings": {
+        "article_selector": ".article-item",
+        "title_selector": ".title",
+        "content_selector": ".post-body"
+      }
+    },
+    {
+      "name": "World Economic Forum",
+      "url": "https://www.weforum.org/agenda/archive/artificial-intelligence/",
+      "type": "website",
+      "quality_score": 0.85,
+      "focus": ["global", "economics", "policy"],
+      "parser_settings": {
+        "article_selector": ".tout",
+        "title_selector": ".tout__title",
+        "content_selector": ".article-body"
+      }
+    },
+    {
+      "name": "NBER Working Papers",
+      "url": "https://www.nber.org/papers?page=1&perPage=50&q=artificial+intelligence",
+      "type": "research",
+      "quality_score": 0.95,
+      "focus": ["economics", "research", "academic"],
+      "parser_settings": {
+        "article_selector": ".digest-card",
+        "title_selector": ".digest-card__title",
+        "content_selector": ".digest-card__abstract"
+      }
+    },
+    {
+      "name": "arXiv Economics",
+      "url": "https://arxiv.org/search/?query=artificial+intelligence+economics&searchtype=all",
+      "type": "research",
+      "quality_score": 0.8,
+      "focus": ["academic", "research", "economics"],
+      "parser_settings": {
+        "article_selector": ".arxiv-result",
+        "title_selector": ".title",
+        "content_selector": ".abstract-full"
+      }
+    },
+    {
+      "name": "Google News",
+      "rss_url": "https://news.google.com/rss/search?q=artificial+intelligence+economic+research",
+      "type": "aggregator",
+      "quality_score": 0.7,
+      "focus": ["news", "aggregated"],
+      "parser_settings": {
+        "use_feed_parser": true
+      }
+    },
+    {
+      "name": "Financial Times",
+      "url": "https://www.ft.com/artificial-intelligence",
+      "type": "website",
+      "quality_score": 0.9,
+      "focus": ["finance", "business", "economics"],
+      "parser_settings": {
+        "article_selector": ".o-teaser",
+        "title_selector": ".o-teaser__heading",
+        "content_selector": ".article__content"
+      }
+    }
+  ],
+  "research_sources": [
+    {
+      "name": "SSRN Economics Research Network",
+      "url": "https://papers.ssrn.com/sol3/DisplayAbstractSearch.cfm",
+      "search_params": {
+        "Topic": "artificial intelligence",
+        "Network": "Economics Research Network"
+      },
+      "quality_score": 0.9,
+      "focus": ["economics", "research", "academic"]
+    },
+    {
+      "name": "Bureau of Economic Analysis",
+      "url": "https://www.bea.gov/search?search_api_fulltext=artificial+intelligence",
+      "quality_score": 0.85,
+      "focus": ["economics", "government", "data"]
+    },
+    {
+      "name": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/econres/notes/feds-notes/default.htm",
+      "quality_score": 0.9,
+      "focus": ["economics", "finance", "policy"]
+    }
+  ]
+}
