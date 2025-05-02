@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "../llm_readability_webapp"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {}
+}
